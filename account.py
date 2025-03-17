@@ -8,8 +8,8 @@ class ExternalAuth:  # pylint: disable=too-few-public-methods
     """ExternalAuth class"""
 
     def __init__(self, key, value):
-        self.service_name = key
-        self.display_name = "None"
+        self.service_name = Epic_Games
+        self.display_name = "Djp1chuI4_RL"
         self.external_auth_id = "None"
         self.profile_url = "None"
         if key in ["xbl", "psn", "steam"]:
